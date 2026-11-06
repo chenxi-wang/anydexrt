@@ -1,0 +1,148 @@
+{
+  "hand_name": "inspire",
+  "urdf_path": "hands/inspire_hand/inspire_hand_right.urdf",
+  "joint": {
+    "joint": [1, 1, 1, 1, 1],
+    "num": 20,
+    "shape": [5, 4],
+    "joint_idx_urdf_mapping": {
+      "0": "thumb_proximal_yaw_joint",
+      "1": "thumb_proximal_pitch_joint",
+      "2": "thumb_intermediate_joint",
+      "3": "thumb_distal_joint",
+      "4": "index_proximal_joint",
+      "5": "index_intermediate_joint",
+      "8": "middle_proximal_joint",
+      "9": "middle_intermediate_joint",
+      "12": "ring_proximal_joint",
+      "13": "ring_intermediate_joint",
+      "16": "pinky_proximal_joint",
+      "17": "pinky_intermediate_joint"
+    },
+    "joint_ids": {
+      "0": [
+        {
+          "cid": 2,
+          "mid": 1,
+          "weight": 1.334,
+          "offset": 0
+        },
+        {
+          "cid": 3,
+          "mid": 2,
+          "weight": 0.667,
+          "offset": 0
+        }
+      ],
+      "1": [
+        {
+          "cid": 1,
+          "mid": 0,
+          "weight": 1.06399,
+          "offset": -0.04545
+        }
+      ],
+      "2": [
+        {
+          "cid": 1,
+          "mid": 0,
+          "weight": 1.06399,
+          "offset": -0.04545
+        }
+      ],
+      "3": [
+        {
+          "cid": 1,
+          "mid": 0,
+          "weight": 1.06399,
+          "offset": -0.04545
+        }
+      ],
+      "4": [
+        {
+          "cid": 1,
+          "mid": 0,
+          "weight": 1.06399,
+          "offset": -0.04545
+        }
+      ]
+    },
+    "hand2manus_mapping": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    },
+    "manus2hand_mapping": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    },
+    "limit": {
+      "lower": [
+        [0.0, 0.0, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0]
+      ],
+      "upper": [
+        [1.31, 0.6, 0.8, 0.4],
+        [1.47, 1.52, 0.0, 0.0],
+        [1.47, 1.52, 0.0, 0.0],
+        [1.47, 1.52, 0.0, 0.0],
+        [1.47, 1.52, 0.0, 0.0]
+      ]
+    },
+    "anchor_bend_limit": {
+      "lower": [
+        [0.0, 0.0, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0]
+      ],
+      "upper": [
+        [1.31, 0.6, 0.8, 0.4],
+        [1.47, 1.52, 0.0, 0.0],
+        [1.47, 1.52, 0.0, 0.0],
+        [1.47, 1.52, 0.0, 0.0],
+        [1.47, 1.52, 0.0, 0.0]
+      ]
+    },
+    "anchor_lateral_limit": {
+      "lower": [
+        [0.0, 0.0, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0]
+      ],
+      "upper": [
+        [0.0, 0.6, 0.8, 0.4],
+        [0.0, -0.05, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0],
+        [0.0, -0.05, 0.0, 0.0]
+      ]
+    }
+  },
+  "fingertip_link": {
+    "0": "thumb_tip",
+    "1": "index_tip",
+    "2": "middle_tip",
+    "3": "ring_tip",
+    "4": "pinky_tip"
+  },
+  "finger_num": 5,
+  "lateral_ids": [0],
+  "transform": [
+    [0, 0, 1, 0],
+    [1, 0, 0, 0],
+    [0, 1, 0, 0],
+    [0, 0, 0, 1]
+  ]
+}

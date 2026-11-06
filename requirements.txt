@@ -1,0 +1,9 @@
+numpy
+torch
+tqdm
+transforms3d
+open3d
+kinpy
+pyzmq
+pynput
+pytest

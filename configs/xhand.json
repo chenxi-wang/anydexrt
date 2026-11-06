@@ -1,0 +1,100 @@
+{
+  "hand_name": "xhand",
+  "urdf_path": "hands/xhand/urdf/xhand_right.urdf",
+  "joint": {
+    "joint": [0, 0, 0, 0, 0],
+    "num": 15,
+    "shape": [5, 3],
+    "joint_idx_urdf_mapping": {
+      "0": "right_hand_thumb_bend_joint",
+      "1": "right_hand_thumb_rota_joint1",
+      "2": "right_hand_thumb_rota_joint2",
+      "3": "right_hand_index_bend_joint",
+      "4": "right_hand_index_joint1",
+      "5": "right_hand_index_joint2",
+      "6": "right_hand_mid_joint1",
+      "7": "right_hand_mid_joint2",
+      "9": "right_hand_ring_joint1",
+      "10": "right_hand_ring_joint2",
+      "12": "right_hand_pinky_joint1",
+      "13": "right_hand_pinky_joint2"
+    },
+    "hand2manus_mapping": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    },
+    "manus2hand_mapping": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    },
+    "limit": {
+      "lower": [
+        [0.0, 0.0, 0.0],
+        [-0.17, 0.0, 0.0],
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0]
+      ],
+      "upper": [
+        [1.83, 1.57, 1.57],
+        [0.17, 1.92, 1.92],
+        [1.92, 1.92, 0.0],
+        [1.92, 1.92, 0.0],
+        [1.92, 1.92, 0.0]
+      ]
+    },
+    "anchor_bend_limit": {
+      "lower": [
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0]
+      ],
+      "upper": [
+        [1.83, 1.57, 0.0],
+        [0.0, 1.92, 1.92],
+        [1.92, 1.92, 0.0],
+        [1.92, 1.92, 0.0],
+        [1.92, 1.92, 0.0]
+      ]
+    },
+    "anchor_lateral_limit": {
+      "lower": [
+        [0.0, 0.0, 0.0],
+        [-0.17, 0.0, 0.0],
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0]
+      ],
+      "upper": [
+        [0.0, 1.57, 0.0],
+        [0.17, 0.0, 0.0],
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0]
+      ]
+    }
+  },
+  "fingertip_link": {
+    "0": "right_hand_thumb_rota_tip",
+    "1": "right_hand_index_rota_tip",
+    "2": "right_hand_mid_tip",
+    "3": "right_hand_ring_tip",
+    "4": "right_hand_pinky_tip"
+  },
+  "finger_num": 5,
+  "lateral_ids": [0],
+  "transform": [
+    [0, 0, -1, 0],
+    [0, 1, 0, 0],
+    [1, 0, 0, 0],
+    [0, 0, 0, 1]
+  ]
+}
