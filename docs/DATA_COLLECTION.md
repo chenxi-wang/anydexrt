@@ -54,6 +54,25 @@ Motion collection records all five MANUS fingers, even for four-finger robots. F
 
 Anchor collection requires exactly **three recordings**, in this order:
 
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="../imgs/four-finger-bending.gif" width="100%" alt="Four-finger bending">
+    </td>
+    <td width="33%" align="center">
+      <img src="../imgs/thumb-bending.gif" width="100%" alt="Thumb bending">
+    </td>
+    <td width="33%" align="center">
+      <img src="../imgs/thumb-lateral-rotation.gif" width="100%" alt="Thumb lateral rotation">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><em>(a) Four-finger bending</em></td>
+    <td align="center"><em>(b) Thumb bending</em></td>
+    <td align="center"><em>(c) Thumb lateral rotation</em></td>
+  </tr>
+</table>
+
 1. **Four-finger bending:** repeatedly open the four non-thumb fingers and make a fist, keeping the thumb still. One full-skeleton recording supplies all non-thumb bending anchors (only mapped fingers are used by four-finger robots).
 2. **Thumb bending:** repeatedly bend and extend the thumb, keeping the other fingers still.
 3. **Thumb lateral rotation:** repeatedly rotate the thumb laterally through its comfortable range, keeping the other fingers still.
