@@ -54,7 +54,7 @@ Motion collection records all five MANUS fingers, even for four-finger robots. F
 
 Anchor collection requires exactly **three recordings**, in this order:
 
-<table>
+<table align="center">
   <tr>
     <td width="33%" align="center">
       <img src="../imgs/four-finger-bending.gif" width="100%" alt="Four-finger bending">
